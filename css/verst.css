@@ -5,29 +5,78 @@ html {
    height: 100%;
 }
 
-canvas {
+body {
    background-image: url('../img/bg.svg');
    background-size: cover;
    height: 100vh;
    width: 100vw;
    display: block;
+   position: relative;
 }
 
-main {
+#image {
    background-image: url('../img/writing.png');
+   background-repeat: no-repeat;
    background-size: contain;
-   height: 100%;
+   height: 100vh;
+   width: 100vw;
+   overflow:hidden;
+   background-position: center;
+   display: block;
 }
 
+canvas {
+   position: fixed;
+   top:0;
+   left:0;
+}
 
-.cross-img {
-   background-image: url('../img/cross.svg');
+.img {
+   background-repeat: no-repeat;
    background-size: contain;
+   overflow: hidden;
+   background-position: center;
+   display: block;
    position: absolute;
-   width: 52px;
-   height: 52px;
-   top:5%;
-   left: 93%;
-   cursor: pointer;
+   box-shadow: #444 1px 1px 10px;
 }
+
+.img1 {
+   background-image: url('../img/writing.png');
+   height: 30vh;
+   width: 20vw;
+   top: 10%;
+   left: 20%;
+}
+
+.img2 {
+   background-image: url('../img/writing.png');
+   height: 40vh;
+   width: 30vw;
+   top: 30%;
+   left: 40%;
+}
+
+.img3 {
+   background-image: url('../img/writing.png');
+   height: 20vh;
+   width: 50vw;
+   top: 60%;
+   left: 10%;
+}
+
+.img4 {
+   background-image: url('../img/writing.png');
+   height: 20vh;
+   width: 20vw;
+   top: 30%;
+   left: 60%;
+}
+
+.img5 {
+   background-image: url('../img/writing.png');
+   height: 30vh;
+   width: 40vw;
+   top: 20%;
+   left: 20%;
 }
