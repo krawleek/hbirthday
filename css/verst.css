@@ -40,6 +40,7 @@ canvas {
    margin: 5% 90%;
    width: 8vw;
    height: 8vh;
+   cursor: url('../img/cursorз.svg'), auto;
    z-index: 1;
 }
 
