@@ -3,6 +3,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html {
    height: 100%;
+   cursor: url('../img/cursor.svg'), auto;
 }
 
 body {
@@ -80,3 +81,16 @@ canvas {
    top: 20%;
    left: 20%;
 }
+
+.next {
+   background-image: url('../img/next.svg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 10vh;
+   width: 10vw;
+   padding-left: 90%;
+  
+}
+
+
+
