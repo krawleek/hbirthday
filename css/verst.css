@@ -3,7 +3,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html {
    height: 100%;
-   cursor: url('../img/cursor.svg'), auto;
+   
 }
 
 body {
@@ -13,6 +13,7 @@ body {
    width: 100vw;
    display: block;
    position: relative;
+   cursor: url('../img/cursor.svg'), auto;
 }
 
 #image {
@@ -32,64 +33,17 @@ canvas {
    left:0;
 }
 
-.img {
-   background-repeat: no-repeat;
-   background-size: contain;
-   overflow: hidden;
-   background-position: center;
-   display: block;
-   position: absolute;
-   box-shadow: #444 1px 1px 10px;
-}
-
-.img1 {
-   background-image: url('../img/writing.png');
-   height: 30vh;
-   width: 20vw;
-   top: 10%;
-   left: 20%;
-}
-
-.img2 {
-   background-image: url('../img/writing.png');
-   height: 40vh;
-   width: 30vw;
-   top: 30%;
-   left: 40%;
-}
-
-.img3 {
-   background-image: url('../img/writing.png');
-   height: 20vh;
-   width: 50vw;
-   top: 60%;
-   left: 10%;
-}
-
-.img4 {
-   background-image: url('../img/writing.png');
-   height: 20vh;
-   width: 20vw;
-   top: 30%;
-   left: 60%;
-}
-
-.img5 {
-   background-image: url('../img/writing.png');
-   height: 30vh;
-   width: 40vw;
-   top: 20%;
-   left: 20%;
-}
-
 .next {
    background-image: url('../img/next.svg');
    background-repeat: no-repeat;
    background-size: contain;
-   height: 10vh;
+   margin: 5% 80%;
+   right: 30%;
+    top: 10%;
+    margin-right: -50%;
    width: 10vw;
-   padding-left: 90%;
-  
+   height: 10vh;
+   z-index: 1;
 }
 
 
