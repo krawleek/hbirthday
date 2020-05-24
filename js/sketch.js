@@ -5,7 +5,7 @@ let col={
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth-155, windowHeight);
 }
 
 function draw() {

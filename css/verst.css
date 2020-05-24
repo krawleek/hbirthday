@@ -37,12 +37,9 @@ canvas {
    background-image: url('../img/next.svg');
    background-repeat: no-repeat;
    background-size: contain;
-   margin: 5% 80%;
-   right: 30%;
-    top: 10%;
-    margin-right: -50%;
-   width: 10vw;
-   height: 10vh;
+   margin: 5% 90%;
+   width: 8vw;
+   height: 8vh;
    z-index: 1;
 }
 
